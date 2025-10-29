@@ -1,5 +1,5 @@
 if SHIELD_WEBERBOARD
 
 config ZMK_KEYBOARD_NAME
-    default "WeberBoard"
+    default "weberboard"
 endif
