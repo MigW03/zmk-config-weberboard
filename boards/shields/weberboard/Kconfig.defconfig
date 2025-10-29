@@ -1,13 +1,13 @@
-if SHIELD_WEBERBOARDLEFT
+if SHIELD_WEBERBOARD_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "WeberBoardC"
+    default "WeberBoard"
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_WEBERBOARDLEFT || SHIELD_WEBERBOARDRIGHT
+if SHIELD_WEBERBOARD_LEFT || SHIELD_WEBERBOARD_RIGHT
 
 config ZMK_SPLIT
     default y
