@@ -28,5 +28,9 @@
         compatible = "zmk,matrix-transform";
         rows = <5>;
         columns = <7>;
+
+        map =<
+            RC(0,0) RC(0,1)
+        >;
     };
 };
