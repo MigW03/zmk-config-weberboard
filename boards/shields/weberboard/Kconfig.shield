@@ -1,5 +1,5 @@
-config SHIELD_WEBERBOARD_LEFT
+config SHIELD_WEBERBOARDLEFT
     def_bool $(shields_list_contains, WeberBoardLeft)
 
-config SHIELD_WEBERBOARD_RIGHT
+config SHIELD_WEBERBOARDRIGHT
     def_bool $(shields_list_contains, WeberBoardRight)
