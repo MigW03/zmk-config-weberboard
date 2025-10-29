@@ -1,0 +1,5 @@
+if SHIELD_WEBERBOARD
+
+CONFIG_ZMK_KEYBOARD_NAME="WeberBoard"
+
+endif
