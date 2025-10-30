@@ -18,7 +18,7 @@
 
         layer_1 {
             bindings = <
-            &kp ESCA  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &kp DEL
+            &kp ESCAPE  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &kp DEL
             &kp TAB      &trans        &trans        &trans        &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
             &kp LEFT_SHIFT      &trans        &trans        &trans        &trans  &trans                    &trans  &kp UP_ARROW  &trans  &trans  &trans  &trans
             &kp LEFT_CONTROL      &trans        &trans        &trans        &trans  &trans                    &kp LEFT_ARROW  &kp DOWN  &kp RIGHT  &trans  &trans  &kp RIGHT_SHIFT
