@@ -19,8 +19,8 @@
         layer_1 {
             bindings = <
             &kp ESCAPE  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &kp DEL
-            &kp TAB      &trans        &trans        &trans        &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &kp ENTER
-            &kp LEFT_SHIFT      &trans        &trans        &trans        &trans  &trans                    &trans  &kp UP_ARROW  &trans  &trans  &trans  &trans
+            &kp TAB      &trans        &kp UP_ARROW        &trans        &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &kp ENTER
+            &kp LEFT_SHIFT      &kp LEFT_ARROW        &kp DOWN        &kp RIGHT        &trans  &trans                    &trans  &kp UP_ARROW  &trans  &trans  &trans  &trans
             &kp LEFT_CONTROL      &trans        &trans        &trans        &trans  &trans                    &kp LEFT_ARROW  &kp DOWN  &kp RIGHT  &trans  &trans  &kp RIGHT_SHIFT
                                       &kp LEFT_GUI        &kp LEFT_ALT        &to 0   &kp ENTER    &kp C_VOL_DN  &kp C_VOLUME_UP  &kp SPACE &kp BACKSPACE &trans &kp ESCAPE
             >;
